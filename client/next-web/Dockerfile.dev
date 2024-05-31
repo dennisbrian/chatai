@@ -60,7 +60,7 @@ RUN npm ci --only=production
 
 # Expose port 3000 to the Docker host, so we can access it
 # from the outside
-EXPOSE 3000
+# EXPOSE 3000
 
 # Start command will start the Next.js app
 CMD ["sh", "-c", "npm start"]
